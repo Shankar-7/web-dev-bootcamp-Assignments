@@ -1,0 +1,27 @@
+<!Doctype html>
+	<html>
+		<head>
+			<title>Span demo</title>
+			<style>
+				.letter{
+					background-color: pink;
+				}
+			
+			
+			</style>
+		</head>
+		<body>
+			<h2>Welcome to Bootcamp</h2>
+			<p>
+				<span id="t1" class="letter">Thread Scheduling</span>is going 
+				<span id="t2" class="letter">Leightweight Process (LWP)</span>
+			</p>
+			<button type="button" onclick="changeText()">change Text</button>
+				<script>
+					function changeText()
+					{
+						document.getElementByID('t1').innerHTML="madblock bootcamp";
+					}
+				</script>
+		</body>
+    </html>
